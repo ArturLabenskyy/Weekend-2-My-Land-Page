@@ -115,9 +115,6 @@ img {
   font-size: 20px;
  }
 
- /* #about p {
-  font-size: 24px;
- } */
  
 .flex-img {
   display: flex;
@@ -153,3 +150,58 @@ img {
 .hobbie h1 {
   color: #00ADB5;
 }
+
+.links {
+  margin: 100px 20px;
+  height: 100vh;
+  text-align: center;
+  size: 30px;
+}
+
+.links h1 {
+  color: #00ADB5;
+  font-size: 50px;
+}
+
+.links ul {
+  font-size: 40px;
+}
+
+#tag {
+  color: #b33b04;
+}
+
+/* ------------------Mobile-------------- */
+
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .logo {
+    margin: auto;
+  }
+
+  /* .hero .content {
+    flex-direction: column;
+    align-items: center;
+  } */
+  .flex-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-img img {
+    margin: 20px 0;
+    height: 30%;
+    width: 30%;
+  }
+
+  .grid-box {
+    flex-direction: column;
+  }
+}
+
