@@ -206,5 +206,9 @@ img {
   .grid-box {
     flex-direction: column;
   }
+
+  .links span {
+    font-size: 20px;
+  }
 }
 
